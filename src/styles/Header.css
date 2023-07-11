@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 80px;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoImage{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 50px;
+    color: white;
+    font-size: 25px;
+    letter-spacing: -0.8px;
+}
+
+img{
+    width: 110px;
+    border-radius: 10px;
+}
+
+p{
+    display: inline;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
